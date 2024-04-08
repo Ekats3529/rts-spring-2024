@@ -5,7 +5,7 @@ const int NUMBER_OF_PINS = 5;
 unsigned long* prevMicrosArr = new unsigned long[NUMBER_OF_PINS];
 unsigned long* intervalsArr = new unsigned long[NUMBER_OF_PINS];
 int* ledStates = new int[NUMBER_OF_PINS];
-int pins[NUMBER_OF_PINS] = {3, 6, 9, 10, 11};
+int pins[NUMBER_OF_PINS] = {3, 5, 6, 9, 10};
 
 void setup() {
   for (int i = 0; i < NUMBER_OF_PINS; ++i) {
